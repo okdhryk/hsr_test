@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find rospeex_launch)/launch/rospeex_browser.launch" />
+  <node name="hsr_demo" pkg="hsr_demo" type="hsr_demo.py" output="screen" />
+</launch>
+
